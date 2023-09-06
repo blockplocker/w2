@@ -1,0 +1,47 @@
+.flag {
+  background-color: #006aa7;
+  width: 32rem;
+  height: 20rem;
+  margin: 4rem;
+  position: relative;
+}
+.flag::before {
+  content: "";
+  position: absolute;
+  top: 8rem;
+  height: 4rem;
+  width: 100%;
+  background-color: #fecc00;
+}
+.flag::after {
+  content: "";
+  position: absolute;
+  left: 10rem;
+  height: 100%;
+  width: 4rem;
+  background-color: #fecc00;
+}
+
+.skane {
+  background-color: red;
+  width: 32rem;
+  height: 20rem;
+  margin: 4rem;
+  position: relative;
+}
+.skane::before {
+  content: "";
+  position: absolute;
+  top: 8rem;
+  height: 4rem;
+  width: 100%;
+  background-color: #fecc00;
+}
+.skane::after {
+  content: "";
+  position: absolute;
+  left: 10rem;
+  height: 100%;
+  width: 4rem;
+  background-color: #fecc00;
+}/*# sourceMappingURL=main.css.map */

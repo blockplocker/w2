@@ -1,0 +1,34 @@
+@mixin flaga($size, $clr-one, $clr-two){
+    background-color: $clr-one;
+
+    width: $size *16;
+    height: $size * 10;
+
+    margin: $size * 2;
+    position: relative;
+
+    
+    &::before{
+        content: "";
+
+        position: absolute;
+        top: $size * 4;
+
+        height: $size * 2;
+        width: 100%;
+
+        background-color: $clr-two;
+    }
+
+    &::after{
+        content: "";
+
+        position: absolute;
+        left: $size * 5;
+
+        height: 100%;
+        width: $size * 2;
+
+        background-color: $clr-two;
+    }
+}
