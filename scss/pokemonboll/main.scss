@@ -1,0 +1,11 @@
+@use "partials/" as *;
+
+.pokeball {
+    @include mx-pokeball($v-sz, $v-clr-1, $v-clr-2, $v-clr-3);
+}
+
+
+
+body{
+    background-color: aqua;
+}

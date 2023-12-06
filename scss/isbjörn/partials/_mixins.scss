@@ -1,0 +1,24 @@
+@mixin isbjörn_wrapper($size, $clr1, $clr2, $clr3, $clr4, $clr5) {
+    background-color: $clr1;
+
+    height: $size * 20;
+    width: $size * 20;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &::before {
+        content: "";
+    }
+    &:after {
+        content: "";
+    }
+}
+
+@mixin isbjörn_body($size, $clr1, $clr2, $clr3, $clr4, $clr5) {
+    background-color: $clr2;
+    width: $size *15;
+    height: $size *10;
+}

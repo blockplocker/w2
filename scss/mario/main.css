@@ -1,0 +1,1560 @@
+body {
+  background-color: #81a1c1;
+  margin: 2rem;
+}
+
+.powerups {
+  display: grid;
+  grid-template-columns: repeat(2, 480px);
+}
+
+.power {
+  display: flex;
+  flex-wrap: wrap;
+  width: 480px;
+  height: 480px;
+}
+.power__sizeup .px:nth-child(1) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(2) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(3) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(4) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(5) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(6) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(7) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(8) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(9) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(10) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(11) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(12) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(13) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(14) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(15) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(16) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(17) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(18) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(19) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(20) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(21) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(22) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(23) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(24) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(25) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(26) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(27) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(28) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(29) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(30) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(31) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(32) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(33) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(34) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(35) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(36) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(37) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(38) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(39) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(40) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(41) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(42) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(43) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(44) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(45) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(46) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(47) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(48) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(49) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(50) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(51) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(52) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(53) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(54) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(55) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(56) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(57) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(58) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(59) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(60) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(61) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(62) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(63) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(64) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(65) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(66) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(67) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(68) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(69) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(70) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(71) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(72) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(73) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(74) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(75) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(76) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(77) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(78) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(79) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(80) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(81) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(82) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(83) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(84) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(85) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(86) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(87) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(88) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(89) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(90) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(91) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(92) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(93) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(94) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(95) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(96) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(97) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(98) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(99) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(100) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(101) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(102) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(103) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(104) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(105) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(106) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(107) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(108) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(109) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(110) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(111) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(112) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(113) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(114) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(115) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(116) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(117) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(118) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(119) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(120) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(121) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(122) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(123) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(124) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(125) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(126) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(127) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(128) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(129) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(130) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(131) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(132) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(133) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(134) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(135) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(136) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(137) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(138) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(139) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(140) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(141) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(142) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(143) {
+  background-color: white;
+}
+.power__sizeup .px:nth-child(144) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(145) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(146) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(147) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(148) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(149) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(150) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(151) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(152) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(153) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(154) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(155) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(156) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(157) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(158) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(159) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(160) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(161) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(162) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(163) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(164) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(165) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(166) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(167) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(168) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(169) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(170) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(171) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(172) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(173) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(174) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(175) {
+  background-color: red;
+}
+.power__sizeup .px:nth-child(176) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(177) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(178) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(179) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(180) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(181) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(182) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(183) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(184) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(185) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(186) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(187) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(188) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(189) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(190) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(191) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(192) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(193) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(194) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(195) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(196) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(197) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(198) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(199) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(200) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(201) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(202) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(203) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(204) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(205) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(206) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(207) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(208) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(209) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(210) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(211) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(212) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(213) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(214) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(215) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(216) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(217) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(218) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(219) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(220) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(221) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(222) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(223) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(224) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(225) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(226) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(227) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(228) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(229) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(230) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(231) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(232) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(233) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(234) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(235) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(236) {
+  background-color: #ffcd94;
+}
+.power__sizeup .px:nth-child(237) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(238) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(239) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(240) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(241) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(242) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(243) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(244) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(245) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(246) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(247) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(248) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(249) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(250) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(251) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(252) {
+  background-color: black;
+}
+.power__sizeup .px:nth-child(253) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(254) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(255) {
+  background-color: transparent;
+}
+.power__sizeup .px:nth-child(256) {
+  background-color: transparent;
+}
+.power__sizeup .px {
+  width: 30px;
+  height: 30px;
+}
+.power__1up .px:nth-child(1) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(2) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(3) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(4) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(5) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(6) {
+  background-color: black;
+}
+.power__1up .px:nth-child(7) {
+  background-color: black;
+}
+.power__1up .px:nth-child(8) {
+  background-color: black;
+}
+.power__1up .px:nth-child(9) {
+  background-color: black;
+}
+.power__1up .px:nth-child(10) {
+  background-color: black;
+}
+.power__1up .px:nth-child(11) {
+  background-color: black;
+}
+.power__1up .px:nth-child(12) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(13) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(14) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(15) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(16) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(17) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(18) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(19) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(20) {
+  background-color: black;
+}
+.power__1up .px:nth-child(21) {
+  background-color: black;
+}
+.power__1up .px:nth-child(22) {
+  background-color: white;
+}
+.power__1up .px:nth-child(23) {
+  background-color: white;
+}
+.power__1up .px:nth-child(24) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(25) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(26) {
+  background-color: white;
+}
+.power__1up .px:nth-child(27) {
+  background-color: white;
+}
+.power__1up .px:nth-child(28) {
+  background-color: black;
+}
+.power__1up .px:nth-child(29) {
+  background-color: black;
+}
+.power__1up .px:nth-child(30) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(31) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(32) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(33) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(34) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(35) {
+  background-color: black;
+}
+.power__1up .px:nth-child(36) {
+  background-color: white;
+}
+.power__1up .px:nth-child(37) {
+  background-color: white;
+}
+.power__1up .px:nth-child(38) {
+  background-color: white;
+}
+.power__1up .px:nth-child(39) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(40) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(41) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(42) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(43) {
+  background-color: white;
+}
+.power__1up .px:nth-child(44) {
+  background-color: white;
+}
+.power__1up .px:nth-child(45) {
+  background-color: white;
+}
+.power__1up .px:nth-child(46) {
+  background-color: black;
+}
+.power__1up .px:nth-child(47) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(48) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(49) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(50) {
+  background-color: black;
+}
+.power__1up .px:nth-child(51) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(52) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(53) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(54) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(55) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(56) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(57) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(58) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(59) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(60) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(61) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(62) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(63) {
+  background-color: black;
+}
+.power__1up .px:nth-child(64) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(65) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(66) {
+  background-color: black;
+}
+.power__1up .px:nth-child(67) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(68) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(69) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(70) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(71) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(72) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(73) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(74) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(75) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(76) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(77) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(78) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(79) {
+  background-color: black;
+}
+.power__1up .px:nth-child(80) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(81) {
+  background-color: black;
+}
+.power__1up .px:nth-child(82) {
+  background-color: white;
+}
+.power__1up .px:nth-child(83) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(84) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(85) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(86) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(87) {
+  background-color: white;
+}
+.power__1up .px:nth-child(88) {
+  background-color: white;
+}
+.power__1up .px:nth-child(89) {
+  background-color: white;
+}
+.power__1up .px:nth-child(90) {
+  background-color: white;
+}
+.power__1up .px:nth-child(91) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(92) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(93) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(94) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(95) {
+  background-color: white;
+}
+.power__1up .px:nth-child(96) {
+  background-color: black;
+}
+.power__1up .px:nth-child(97) {
+  background-color: black;
+}
+.power__1up .px:nth-child(98) {
+  background-color: white;
+}
+.power__1up .px:nth-child(99) {
+  background-color: white;
+}
+.power__1up .px:nth-child(100) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(101) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(102) {
+  background-color: white;
+}
+.power__1up .px:nth-child(103) {
+  background-color: white;
+}
+.power__1up .px:nth-child(104) {
+  background-color: white;
+}
+.power__1up .px:nth-child(105) {
+  background-color: white;
+}
+.power__1up .px:nth-child(106) {
+  background-color: white;
+}
+.power__1up .px:nth-child(107) {
+  background-color: white;
+}
+.power__1up .px:nth-child(108) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(109) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(110) {
+  background-color: white;
+}
+.power__1up .px:nth-child(111) {
+  background-color: white;
+}
+.power__1up .px:nth-child(112) {
+  background-color: black;
+}
+.power__1up .px:nth-child(113) {
+  background-color: black;
+}
+.power__1up .px:nth-child(114) {
+  background-color: white;
+}
+.power__1up .px:nth-child(115) {
+  background-color: white;
+}
+.power__1up .px:nth-child(116) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(117) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(118) {
+  background-color: white;
+}
+.power__1up .px:nth-child(119) {
+  background-color: white;
+}
+.power__1up .px:nth-child(120) {
+  background-color: white;
+}
+.power__1up .px:nth-child(121) {
+  background-color: white;
+}
+.power__1up .px:nth-child(122) {
+  background-color: white;
+}
+.power__1up .px:nth-child(123) {
+  background-color: white;
+}
+.power__1up .px:nth-child(124) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(125) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(126) {
+  background-color: white;
+}
+.power__1up .px:nth-child(127) {
+  background-color: white;
+}
+.power__1up .px:nth-child(128) {
+  background-color: black;
+}
+.power__1up .px:nth-child(129) {
+  background-color: black;
+}
+.power__1up .px:nth-child(130) {
+  background-color: white;
+}
+.power__1up .px:nth-child(131) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(132) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(133) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(134) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(135) {
+  background-color: white;
+}
+.power__1up .px:nth-child(136) {
+  background-color: white;
+}
+.power__1up .px:nth-child(137) {
+  background-color: white;
+}
+.power__1up .px:nth-child(138) {
+  background-color: white;
+}
+.power__1up .px:nth-child(139) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(140) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(141) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(142) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(143) {
+  background-color: white;
+}
+.power__1up .px:nth-child(144) {
+  background-color: black;
+}
+.power__1up .px:nth-child(145) {
+  background-color: black;
+}
+.power__1up .px:nth-child(146) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(147) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(148) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(149) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(150) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(151) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(152) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(153) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(154) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(155) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(156) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(157) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(158) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(159) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(160) {
+  background-color: black;
+}
+.power__1up .px:nth-child(161) {
+  background-color: black;
+}
+.power__1up .px:nth-child(162) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(163) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(164) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(165) {
+  background-color: black;
+}
+.power__1up .px:nth-child(166) {
+  background-color: black;
+}
+.power__1up .px:nth-child(167) {
+  background-color: black;
+}
+.power__1up .px:nth-child(168) {
+  background-color: black;
+}
+.power__1up .px:nth-child(169) {
+  background-color: black;
+}
+.power__1up .px:nth-child(170) {
+  background-color: black;
+}
+.power__1up .px:nth-child(171) {
+  background-color: black;
+}
+.power__1up .px:nth-child(172) {
+  background-color: black;
+}
+.power__1up .px:nth-child(173) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(174) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(175) {
+  background-color: #01c03c;
+}
+.power__1up .px:nth-child(176) {
+  background-color: black;
+}
+.power__1up .px:nth-child(177) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(178) {
+  background-color: black;
+}
+.power__1up .px:nth-child(179) {
+  background-color: black;
+}
+.power__1up .px:nth-child(180) {
+  background-color: black;
+}
+.power__1up .px:nth-child(181) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(182) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(183) {
+  background-color: black;
+}
+.power__1up .px:nth-child(184) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(185) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(186) {
+  background-color: black;
+}
+.power__1up .px:nth-child(187) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(188) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(189) {
+  background-color: black;
+}
+.power__1up .px:nth-child(190) {
+  background-color: black;
+}
+.power__1up .px:nth-child(191) {
+  background-color: black;
+}
+.power__1up .px:nth-child(192) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(193) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(194) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(195) {
+  background-color: black;
+}
+.power__1up .px:nth-child(196) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(197) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(198) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(199) {
+  background-color: black;
+}
+.power__1up .px:nth-child(200) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(201) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(202) {
+  background-color: black;
+}
+.power__1up .px:nth-child(203) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(204) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(205) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(206) {
+  background-color: black;
+}
+.power__1up .px:nth-child(207) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(208) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(209) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(210) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(211) {
+  background-color: black;
+}
+.power__1up .px:nth-child(212) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(213) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(214) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(215) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(216) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(217) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(218) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(219) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(220) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(221) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(222) {
+  background-color: black;
+}
+.power__1up .px:nth-child(223) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(224) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(225) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(226) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(227) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(228) {
+  background-color: black;
+}
+.power__1up .px:nth-child(229) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(230) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(231) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(232) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(233) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(234) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(235) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(236) {
+  background-color: #ffcd94;
+}
+.power__1up .px:nth-child(237) {
+  background-color: black;
+}
+.power__1up .px:nth-child(238) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(239) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(240) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(241) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(242) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(243) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(244) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(245) {
+  background-color: black;
+}
+.power__1up .px:nth-child(246) {
+  background-color: black;
+}
+.power__1up .px:nth-child(247) {
+  background-color: black;
+}
+.power__1up .px:nth-child(248) {
+  background-color: black;
+}
+.power__1up .px:nth-child(249) {
+  background-color: black;
+}
+.power__1up .px:nth-child(250) {
+  background-color: black;
+}
+.power__1up .px:nth-child(251) {
+  background-color: black;
+}
+.power__1up .px:nth-child(252) {
+  background-color: black;
+}
+.power__1up .px:nth-child(253) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(254) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(255) {
+  background-color: transparent;
+}
+.power__1up .px:nth-child(256) {
+  background-color: transparent;
+}
+.power__1up .px {
+  width: 30px;
+  height: 30px;
+}/*# sourceMappingURL=main.css.map */

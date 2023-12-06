@@ -1,0 +1,15 @@
+@mixin pixelcolors($px, $clr, $pxmap){
+    $num:1;
+
+    @each $value in $pxmap {
+        .px:nth-child(#{$num}){
+            background-color: map-get($map: $clr, $key: $value);
+        }
+        $num: $num + 1;
+    }
+
+    .px{
+        width: $px;
+        height: $px;
+    }
+}

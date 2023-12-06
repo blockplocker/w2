@@ -1,0 +1,66 @@
+.glass1 {
+  background-color: rgba(153, 205, 50, 0.5);
+  height: 16rem;
+  width: 8rem;
+  border-radius: 45% 45% 15% 15%;
+  position: relative;
+}
+.glass1::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  background-color: #cda857;
+  height: 16rem;
+  width: 2rem;
+  border-radius: 50% 50% 50% 50%/5% 5% 5% 5%;
+  top: 5rem;
+  right: 3rem;
+}
+
+.glass2 {
+  background-image: linear-gradient(to bottom, rgba(50, 205, 50, 0.5) 0%, rgba(50, 205, 50, 0.5) 33.3333333333%, rgba(220, 20, 60, 0.5) 33.3333333333%, rgba(220, 20, 60, 0.5) 66.6666666667%, rgba(30, 143, 255, 0.5) 66.6666666667%, rgba(30, 143, 255, 0.5) 100%);
+  height: 16rem;
+  width: 8rem;
+  border-radius: 45% 45% 15% 15%;
+  position: relative;
+}
+.glass2::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  background-color: #897516;
+  height: 16rem;
+  width: 2rem;
+  border-radius: 50% 50% 50% 50%/5% 5% 5% 5%;
+  top: 5rem;
+  right: 3rem;
+}
+
+.glass3 {
+  background-image: linear-gradient(to bottom, rgba(207, 209, 118, 0.5) 0%, rgba(207, 209, 118, 0.5) 10%, rgba(109, 76, 183, 0.5) 10%, rgba(109, 76, 183, 0.5) 20%, rgba(11, 67, 197, 0.5) 20%, rgba(11, 67, 197, 0.5) 30%, rgba(46, 250, 223, 0.5) 30%, rgba(46, 250, 223, 0.5) 40%, rgba(83, 230, 66, 0.5) 40%, rgba(83, 230, 66, 0.5) 50%, rgba(69, 34, 69, 0.5) 50%, rgba(69, 34, 69, 0.5) 60%, rgba(255, 207, 229, 0.5) 60%, rgba(255, 207, 229, 0.5) 70%, rgba(120, 34, 78, 0.5) 70%, rgba(120, 34, 78, 0.5) 80%, rgba(2, 170, 19, 0.5) 80%, rgba(2, 170, 19, 0.5) 90%, rgba(184, 87, 49, 0.5) 90%, rgba(184, 87, 49, 0.5) 100%);
+  height: 16rem;
+  width: 8rem;
+  border-radius: 45% 45% 15% 15%;
+  position: relative;
+}
+.glass3::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  background-color: #897516;
+  height: 16rem;
+  width: 2rem;
+  border-radius: 50% 50% 50% 50%/5% 5% 5% 5%;
+  top: 5rem;
+  right: 3rem;
+}
+
+body {
+  background-color: #81a2c1;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}/*# sourceMappingURL=main.css.map */

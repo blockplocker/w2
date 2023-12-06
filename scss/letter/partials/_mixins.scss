@@ -1,0 +1,32 @@
+@mixin letter($size ,$clr1 ,$clr2){
+    background-color: $clr1;
+    position: relative;
+
+    border: $size*0.5 solid $clr2;
+    border-radius: $size;
+    
+    height: $size*10;
+    width: $size*15;
+    
+    margin: 5%;
+    
+    &::before{
+        content: "";
+        position: absolute;
+        
+        border-bottom: $size*0.5 solid $clr2;
+        border-right: $size*0.5 solid $clr2;
+        border-top: $size*0.5 solid transparent;
+        border-left: $size*0.5 solid transparent;
+        
+        border-radius: 0 0 $size 0;
+
+        height: $size*7.5;
+        width: $size*7.5;
+
+        top: -$size*2;
+        right: $size*3.5;
+
+        transform: rotate(45deg);
+    }
+}

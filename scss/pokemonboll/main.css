@@ -1,0 +1,23 @@
+.pokeball {
+  background-image: linear-gradient(#ef5265 0%, #ef5265 47%, #40484b 40%, #40484b 53%, #f9f9f9 53%, #f9f9f9);
+  width: 20rem;
+  height: 20rem;
+  position: relative;
+  border-radius: 50%;
+}
+.pokeball::after {
+  content: "";
+  background-color: #f9f9f9;
+  border: 1rem solid #40484b;
+  box-sizing: border-box;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 2.5rem);
+  left: calc(50% - 2.5rem);
+  width: 5rem;
+  height: 5rem;
+}
+
+body {
+  background-color: aqua;
+}/*# sourceMappingURL=main.css.map */

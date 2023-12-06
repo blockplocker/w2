@@ -1,0 +1,36 @@
+.camera {
+  background-image: linear-gradient(#ebebeb 0%, #ebebeb 25%, #bb342f 25%, #bb342f 75%, #ebebeb 75%, #ebebeb);
+  position: relative;
+  height: 30rem;
+  width: 50rem;
+  border-radius: 3rem;
+}
+.camera::before {
+  content: "";
+  background-color: #691d1b;
+  position: absolute;
+  top: -1.5rem;
+  left: 5rem;
+  height: 1.5rem;
+  width: 5rem;
+  border-radius: 1rem 1rem 0 0;
+}
+.camera::after {
+  content: "";
+  position: absolute;
+  background-image: radial-gradient(cirkle at 50%, black 0%, black 25%, red 25%, red 50%, green 50%, green 80%, blue 80%);
+  background-color: #b0b;
+  top: 25%;
+  left: 25%;
+  height: 20rem;
+  width: 20rem;
+}
+
+body {
+  margin: 0;
+  background-color: #81a1c1;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */

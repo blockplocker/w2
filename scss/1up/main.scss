@@ -1,0 +1,24 @@
+@use "partials/" as *;
+
+
+.oneup{
+    @include mx-oneup($v-size, $v-size2,$v-clr1 ,$v-clr2 ,$v-clr3 ,$v-clr4);
+
+}
+.oneup_2{
+    @include mx-oneup_2($v-size, $v-size2 ,$v-clr1 ,$v-clr2 ,$v-clr3 ,$v-clr4)
+}
+.oneup_wrapper{
+    @include mx-oneup_wrapper($v-size, $v-size2 ,$v-clr1 ,$v-clr2 ,$v-clr3 ,$v-clr4)
+}
+
+
+body{
+    margin: 0;
+    background-color: #94acf3;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

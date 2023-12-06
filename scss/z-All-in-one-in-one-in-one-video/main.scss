@@ -1,0 +1,68 @@
+@use "partials/" as *;
+
+
+.terminal{
+    @include mx-terminal($v-size ,$v-t-clr1 ,$v-t-clr2 ,$v-t-clr3 ,$v-t-clr4 ,$v-t-clr5 ,$v-t-clr6);
+}
+.pokeball {
+    @include mx-pokeball($v-sz, $v-p-clr-1, $v-p-clr-2, $v-p-clr-3);
+}
+.letter-1{
+    @include mx-letter($v-l-size1 ,$v-l-clr1 ,$v-l-clr2);
+}
+.letter-2{
+    @include mx-letter($v-l-size2 ,$v-l-clr3 ,$v-l-clr4);
+}
+.letter-3{
+    @include mx-letter($v-l-size3 ,$v-l-clr5 ,$v-l-clr6);
+}
+.heart-1{
+    @include mx-heart($v-size ,$v-h-clr1);
+}
+.heart-2{
+    @include mx-heart($v-size  ,$v-h-clr2);
+}
+
+.ghost-1{
+    @include mx-ghost($v-size ,$v-g-clr1 ,$v-g-clr2);
+}
+.ghost-2{
+    @include mx-ghost($v-g-size-2 ,$v-g-clr1 ,$v-g-clr3);
+}
+.flag {
+    @include mx-flaga($v-f-sz, $v-f-clr1, $v-f-clr2);
+}
+
+.skane {
+    @include mx-flaga($v-f-sz, red, $v-f-clr2);
+}
+.flag-icon{
+    @include mx-flag-icon($v-fi-sz, $v-fi-clr-1);
+}
+.ballong{
+    @include mx-ballong($v-b-size-1 ,$v-b-clr1 ,$v-b-clr2 ,$v-b-clr3);
+}
+.oneup{
+    @include mx-oneup($v-u-size, $v-u-size2,$v-u-clr1 ,$v-u-clr2 ,$v-u-clr3 ,$v-u-clr4);
+
+}
+.oneup_2{
+    @include mx-oneup_2($v-u-size, $v-u-size2 ,$v-u-clr1 ,$v-u-clr2 ,$v-u-clr3 ,$v-u-clr4)
+}
+.oneup_wrapper{
+    @include mx-oneup_wrapper($v-u-size, $v-u-size2 ,$v-u-clr1 ,$v-u-clr2 ,$v-u-clr3 ,$v-u-clr4)
+}
+.camera{
+    @include mx-camera-body($v-size ,$v-c-clr1 ,$v-c-clr2 ,$v-c-clr3 ,$v-c-clr4 ,$v-c-clr5);
+}
+
+body{
+    margin: 0;
+    background-color: #81a1c1;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

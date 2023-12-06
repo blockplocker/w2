@@ -1,0 +1,44 @@
+.ballong {
+  background-color: #dc143c;
+  position: relative;
+  height: 30rem;
+  width: 30rem;
+  border: 1.5rem solid #000000;
+  border-radius: 100%;
+  margin: 9rem;
+}
+.ballong::before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  top: calc(50% - 12rem);
+  left: calc(50% - 12rem);
+  height: 24rem;
+  width: 24rem;
+  border-radius: 100%;
+  border: 1.5rem solid transparent;
+  border-top: 1.5rem solid #000000;
+  transform: rotate(45deg);
+}
+.ballong::after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 15rem);
+  left: calc(50% - 15rem);
+  height: 30rem;
+  width: 30rem;
+  border-radius: 100%;
+  transform: rotate(45deg);
+  border-bottom: 3rem solid #ad102f;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #535c68;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}/*# sourceMappingURL=main.css.map */

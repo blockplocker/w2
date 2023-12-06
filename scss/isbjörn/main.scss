@@ -1,0 +1,24 @@
+@use "partials/" as *;
+
+.isbjörn_wrapper {
+    @include isbjörn_wrapper($size, $clr1, $clr2, $clr3, $clr4, $clr5);
+}
+.isbjörn_body{
+    @include isbjörn_body($size, $clr1, $clr2, $clr3, $clr4, $clr5);
+}
+
+// .isbjörn2 {
+//     @include isbjörn($size, $clrs-fler, $clr4);
+// }
+
+
+body {
+    background-color: #434c5e;
+    min-height: 100vh;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}

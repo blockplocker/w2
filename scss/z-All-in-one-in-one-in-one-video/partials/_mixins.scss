@@ -1,0 +1,465 @@
+@mixin terminal($size ,$clr1 ,$clr2 ,$clr3 ,$clr4 ,$clr5 ,$clr6){
+
+    background-image: linear-gradient(
+        $clr5 0%, 
+        $clr5 10%, 
+        $clr4 10%,
+        $clr4
+    );
+    position: relative;
+
+    height: $size * 30;
+    width: $size * 50;
+
+    &::before{
+        content: "";
+        background-color: $clr1;
+
+        position: absolute;
+        top: 2.5%;
+        left: 1%;
+
+        height: $size*1.5;
+        width: $size*1.5;
+        box-shadow: $size*2 0px 0px 0px $clr2,$size*4 0px 0px 0px $clr3;
+        border-radius: 50%;
+    }
+
+    &::after{
+        content: "";
+        position: absolute;
+        top: $size *9;
+
+        height: $size * 12.5;
+        width: $size * 12.5;
+        border-top: $size *3 solid $clr6;
+        border-right: $size *3 solid $clr6;
+
+        transform: rotate(45deg);
+    }
+}
+@mixin pokeball($size, $clr1, $clr2, $clr3){
+    background-image: linear-gradient(
+        $clr1 0%,
+        $clr1 47%,
+        $clr2 40%, 
+        $clr2 53%, 
+        $clr3 53%,
+        $clr3
+    );
+    
+        width: $size * 10;
+        height: $size * 10;
+    
+        position: relative;
+    
+        border-radius: 50%;
+    
+        
+        &::after{
+            content: "";
+            background-color: $clr3;
+    
+            border: calc($size*5 /10) solid $clr2;
+            box-sizing: border-box;
+            border-radius: 50%;
+        
+            position: absolute;
+            top: calc(50% - $size *1.25);
+            left: calc(50% - $size *1.25);
+        
+            width: $size * 2.5;
+            height: $size * 2.5;
+            
+        }
+        
+        // &::before{
+        //     content: "";
+        //     background-color: $clr2;
+        
+        //     position: absolute;
+        
+        //     width: 100%;
+        //     height: $size;
+        //     top: calc(50% - $size *0.5);
+        // }
+    }
+    @mixin letter($size ,$clr1 ,$clr2){
+        background-color: $clr1;
+        position: relative;
+    
+        border: $size*0.5 solid $clr2;
+        border-radius: $size;
+        
+        height: $size*10;
+        width: $size*15;
+        
+        margin: 5%;
+        
+        &::before{
+            content: "";
+            position: absolute;
+            
+            border-bottom: $size*0.5 solid $clr2;
+            border-right: $size*0.5 solid $clr2;
+            border-top: $size*0.5 solid transparent;
+            border-left: $size*0.5 solid transparent;
+            
+            border-radius: 0 0 $size 0;
+    
+            height: $size*7.5;
+            width: $size*7.5;
+    
+            top: -$size*2;
+            right: $size*3.5;
+    
+            transform: rotate(45deg);
+        }
+    }
+    @mixin heart($size ,$clr1){
+
+        background-color: $clr1;
+        
+            position: relative;
+            margin: $size*4;
+        
+            height: $size * 10;
+            width: $size * 10;
+        
+            transform: rotate(45deg);
+            &::before{
+                content: "";
+                position: absolute;
+                
+                background-color: $clr1;
+                right: $size*10;
+                
+                height: $size*10;
+                width: $size*5;
+        
+                border-radius: 100% 0% 0% 100% / 50% 100% 0% 50% ;
+            }
+            &::after{
+                content: "";
+                position: absolute;
+                
+                background-color: $clr1;
+                top: -$size*5;
+        
+                height: $size*5;
+                width: $size*10;
+        
+                border-radius: 50% 50% 0% 100% / 100% 100% 0% 0% ;
+        
+            }
+        }
+        @mixin ghost($size ,$clr1 ,$clr2){
+
+            background-color: $clr2;
+            
+                position: relative;
+            
+                height: $size * 10;
+                width: $size * 10;
+            
+            border: $size*0.25 solid $clr1;
+            border-radius: 100% 100% 80% 15%;
+            
+            box-shadow: 0 0 $size*3 $clr2;
+            
+            margin: $size*3;
+                &::before{
+                    content: "";
+                    position: absolute;
+                    
+                    background-color: $clr1;
+                    border-radius: 0% 0% 50% 50% / 0% 0% 100% 100% ;
+            
+                    left: calc(50% - $size*2);
+                    top: 65%;
+                    height: $size*1.5;
+                    width: $size*4;
+                }
+                &::after{
+                    content: "";
+                    position: absolute;
+                    
+                    background-color: $clr1;
+                    border-radius: 100% ;
+            
+                    left: calc(50% - $size*2);
+                    top:40%;
+                    height: $size*1;
+                    width: $size*1;
+            
+                    box-shadow: $size*3 0 0 0 $clr1;
+                }
+            }
+            @mixin flaga($size, $clr-one, $clr-two){
+                background-color: $clr-one;
+            
+                width: $size *16;
+                height: $size * 10;
+            
+                margin: $size * 2;
+                position: relative;
+            
+                
+                &::before{
+                    content: "";
+            
+                    position: absolute;
+                    top: $size * 4;
+            
+                    height: $size * 2;
+                    width: 100%;
+            
+                    background-color: $clr-two;
+                }
+            
+                &::after{
+                    content: "";
+            
+                    position: absolute;
+                    left: $size * 5;
+            
+                    height: 100%;
+                    width: $size * 2;
+            
+                    background-color: $clr-two;
+                }
+            }
+            @mixin flag-icon($size, $clr1){
+                background-color: $clr1;
+            
+                height: $size * 2;
+                width: $size * 3;
+            
+            
+                position: relative;
+                border-radius: 15px;
+                
+                &::before{
+                    content: "";
+            
+                    position: absolute;
+                    top: -$size * 0.5;
+            
+                    height: $size * 4.5;
+                    width: $size * 0.5 ;
+                background-color: $clr1;
+            
+                }
+                &::after{
+                    content: "";
+                    position: absolute;
+                    top: $size * 0.8;
+                    right: -$size * 1.5;
+            
+                    height: $size * 2;
+                    width: $size *3;
+                    background-color: $clr1;
+                    border-radius: 15px;
+            
+                }
+            }
+            @mixin ballong($size ,$clr1 ,$clr2, $clr3){
+
+                background-color: $clr1;
+                
+                    position: relative;
+                
+                    height: $size * 10;
+                    width: $size * 10;
+                
+                border: $size*0.5 solid $clr2;
+                border-radius: 100% ;
+                
+                
+                margin: $size*3;
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        box-sizing: border-box;
+                        
+                        // background-color: #b0b;
+                        top: calc(50% - $size*4);
+                        left: calc(50% - $size*4);
+                        
+                        height: $size*8;
+                        width: $size*8;
+                        border-radius: 100%;
+                        border: $size*0.5 solid transparent;
+                        border-top: $size*0.5 solid $clr2;
+                        transform: rotate(45deg);
+                    }
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        
+                        top: calc(50% - $size*5);
+                        left: calc(50% - $size*5);
+                        
+                        height: $size*10;
+                        width: $size*10;
+                        border-radius: 100%;
+                        transform: rotate(45deg);
+                    border-bottom:   $size solid $clr3 ;
+                    box-sizing: border-box;
+                
+                        // box-shadow: $size*3 0 0 0 $clr1;
+                    }
+                }
+                @mixin oneup($size ,$size2 ,$clr1 ,$clr2 ,$clr3 ,$clr4){
+                    background-color: $clr1;
+                    position: relative;
+                    box-sizing: border-box;
+                
+                    height: $size*17.5;
+                    width: $size *20;
+                
+                    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%  ;
+                    border: $size2 solid $clr4;
+                
+                    overflow: hidden;
+                    }
+                @mixin oneup_wrapper($size ,$size2 ,$clr1 ,$clr2 ,$clr3 ,$clr4){
+                        
+                        background-color: $clr2;
+                        z-index: 2;
+                
+                        position: absolute;
+                        bottom: $size *3;
+                        left:calc(50% - $size*5);
+                
+                        height: $size*6;
+                        width: $size*10;
+                        
+                        border: $size2 solid $clr4;
+                        border-radius:28% 28% 50% 50% ;
+                
+                    &::before{
+                        content: "";
+                        background-color: $clr4;
+                
+                        position: absolute;
+                        bottom: $size*2;
+                        right: $size*6.5;
+                
+                        box-shadow: $size*4 0 0 0 $clr4;
+                
+                
+                        height: $size *2.5;
+                        width:  $size *1;
+                
+                        border-radius: 40%;
+                    }
+                    &::after{
+                        content: "";
+                        background-color: $clr3;
+                
+                        position: absolute;
+                        bottom: $size*3.5;
+                        right: $size*6.75;
+                
+                        box-shadow: $size*4 0 0 0 $clr3;
+                
+                        height: $size *0.7;
+                        width:  $size *0.5;
+                
+                        border-radius: 100%;
+                    }
+                }
+                @mixin oneup_2($size ,$size2 ,$clr1 ,$clr2 ,$clr3 ,$clr4){
+                    background-color: $clr3;
+                    
+                    box-sizing: border-box;
+                    
+                    position: absolute;
+                    top: calc(50% - $size*7);
+                    left: calc(50% - $size*5);
+                    
+                    width: $size*10;
+                    height: $size*10;
+                    
+                    border-radius: 50%;
+                    border: $size2 solid $clr4;
+                    
+                    &::before{
+                        content: "";
+                        background-color: $clr3;
+                        
+                        
+                        box-sizing: border-box;
+                        
+                        position: absolute;
+                        top:  45%;
+                        left: 120%;
+                        
+                        width: $size*8;
+                        height: $size*8;
+                        
+                        border-radius: 50%;
+                        border: $size2 solid $clr4;
+                    }
+                    &::after{
+                        content: "";
+                        background-color: $clr3;
+                
+                        box-sizing: border-box;
+                
+                        position: absolute;
+                        top:  45%;
+                        right: 120%;
+                
+                        width: $size*8;
+                        height: $size*8;
+                
+                        border-radius: 50%;
+                        border: $size2 solid $clr4;
+                        }
+                    }
+                    @mixin camera-body($size ,$clr1 ,$clr2 ,$clr3 ,$clr4 ,$clr5){
+
+                        background-image: linear-gradient(
+                            $clr1 0%, 
+                            $clr1 25%, 
+                            $clr2 25%,
+                            $clr2 75%,
+                            $clr1 75%,
+                            $clr1
+                        );
+                        position: relative;
+                    
+                        height: $size * 30;
+                        width: $size * 50;
+                    
+                        border-radius: $size*3;
+                    
+                        &::before{
+                            content: "";
+                            background-color: $clr3;
+                            position: absolute;
+                            top: -$size * 1.5;
+                            left: $size*5;
+                    
+                            height: $size*1.5;
+                            width: $size*5;
+                    
+                            border-radius:  $size $size 0 0 ;
+                        }
+                    
+                        &::after{
+                            content: "";
+                            position: absolute;
+                    
+                            background-image: radial-gradient(cirkle at 50%,black 0%, black 25%, red 25%, red 50%, green 50%, green 80%, blue 80% );
+                            background-color: #b0b;
+                    
+                            top: 25%;
+                            left: 25%;
+                    
+                            height: $size *20;
+                            width: $size *20;
+                        }
+                    }

@@ -1,0 +1,604 @@
+body {
+  background-color: #d0d0d0;
+  margin: 2rem;
+}
+
+.life {
+  display: grid;
+  grid-template-columns: repeat(3, 240px);
+}
+
+.heart {
+  display: flex;
+  flex-wrap: wrap;
+  width: 240px;
+  height: 240px;
+}
+.heart__one .px:nth-child(1) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(2) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(3) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(4) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(5) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(6) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(7) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(8) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(9) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(10) {
+  background-color: black;
+}
+.heart__one .px:nth-child(11) {
+  background-color: black;
+}
+.heart__one .px:nth-child(12) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(13) {
+  background-color: black;
+}
+.heart__one .px:nth-child(14) {
+  background-color: black;
+}
+.heart__one .px:nth-child(15) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(16) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(17) {
+  background-color: black;
+}
+.heart__one .px:nth-child(18) {
+  background-color: red;
+}
+.heart__one .px:nth-child(19) {
+  background-color: red;
+}
+.heart__one .px:nth-child(20) {
+  background-color: black;
+}
+.heart__one .px:nth-child(21) {
+  background-color: red;
+}
+.heart__one .px:nth-child(22) {
+  background-color: red;
+}
+.heart__one .px:nth-child(23) {
+  background-color: black;
+}
+.heart__one .px:nth-child(24) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(25) {
+  background-color: black;
+}
+.heart__one .px:nth-child(26) {
+  background-color: red;
+}
+.heart__one .px:nth-child(27) {
+  background-color: red;
+}
+.heart__one .px:nth-child(28) {
+  background-color: red;
+}
+.heart__one .px:nth-child(29) {
+  background-color: red;
+}
+.heart__one .px:nth-child(30) {
+  background-color: red;
+}
+.heart__one .px:nth-child(31) {
+  background-color: black;
+}
+.heart__one .px:nth-child(32) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(33) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(34) {
+  background-color: black;
+}
+.heart__one .px:nth-child(35) {
+  background-color: red;
+}
+.heart__one .px:nth-child(36) {
+  background-color: red;
+}
+.heart__one .px:nth-child(37) {
+  background-color: red;
+}
+.heart__one .px:nth-child(38) {
+  background-color: black;
+}
+.heart__one .px:nth-child(39) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(40) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(41) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(42) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(43) {
+  background-color: black;
+}
+.heart__one .px:nth-child(44) {
+  background-color: red;
+}
+.heart__one .px:nth-child(45) {
+  background-color: black;
+}
+.heart__one .px:nth-child(46) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(47) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(48) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(49) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(50) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(51) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(52) {
+  background-color: black;
+}
+.heart__one .px:nth-child(53) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(54) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(55) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(56) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(57) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(58) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(59) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(60) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(61) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(62) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(63) {
+  background-color: transparent;
+}
+.heart__one .px:nth-child(64) {
+  background-color: transparent;
+}
+.heart__one .px {
+  width: 30px;
+  height: 30px;
+}
+.heart__two .px:nth-child(1) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(2) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(3) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(4) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(5) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(6) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(7) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(8) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(9) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(10) {
+  background-color: black;
+}
+.heart__two .px:nth-child(11) {
+  background-color: black;
+}
+.heart__two .px:nth-child(12) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(13) {
+  background-color: black;
+}
+.heart__two .px:nth-child(14) {
+  background-color: black;
+}
+.heart__two .px:nth-child(15) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(16) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(17) {
+  background-color: black;
+}
+.heart__two .px:nth-child(18) {
+  background-color: red;
+}
+.heart__two .px:nth-child(19) {
+  background-color: red;
+}
+.heart__two .px:nth-child(20) {
+  background-color: black;
+}
+.heart__two .px:nth-child(21) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(22) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(23) {
+  background-color: black;
+}
+.heart__two .px:nth-child(24) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(25) {
+  background-color: black;
+}
+.heart__two .px:nth-child(26) {
+  background-color: red;
+}
+.heart__two .px:nth-child(27) {
+  background-color: red;
+}
+.heart__two .px:nth-child(28) {
+  background-color: red;
+}
+.heart__two .px:nth-child(29) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(30) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(31) {
+  background-color: black;
+}
+.heart__two .px:nth-child(32) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(33) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(34) {
+  background-color: black;
+}
+.heart__two .px:nth-child(35) {
+  background-color: red;
+}
+.heart__two .px:nth-child(36) {
+  background-color: red;
+}
+.heart__two .px:nth-child(37) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(38) {
+  background-color: black;
+}
+.heart__two .px:nth-child(39) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(40) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(41) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(42) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(43) {
+  background-color: black;
+}
+.heart__two .px:nth-child(44) {
+  background-color: red;
+}
+.heart__two .px:nth-child(45) {
+  background-color: black;
+}
+.heart__two .px:nth-child(46) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(47) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(48) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(49) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(50) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(51) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(52) {
+  background-color: black;
+}
+.heart__two .px:nth-child(53) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(54) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(55) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(56) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(57) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(58) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(59) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(60) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(61) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(62) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(63) {
+  background-color: transparent;
+}
+.heart__two .px:nth-child(64) {
+  background-color: transparent;
+}
+.heart__two .px {
+  width: 30px;
+  height: 30px;
+}
+.heart__tre .px:nth-child(1) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(2) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(3) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(4) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(5) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(6) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(7) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(8) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(9) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(10) {
+  background-color: black;
+}
+.heart__tre .px:nth-child(11) {
+  background-color: black;
+}
+.heart__tre .px:nth-child(12) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(13) {
+  background-color: black;
+}
+.heart__tre .px:nth-child(14) {
+  background-color: black;
+}
+.heart__tre .px:nth-child(15) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(16) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(17) {
+  background-color: black;
+}
+.heart__tre .px:nth-child(18) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(19) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(20) {
+  background-color: black;
+}
+.heart__tre .px:nth-child(21) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(22) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(23) {
+  background-color: black;
+}
+.heart__tre .px:nth-child(24) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(25) {
+  background-color: black;
+}
+.heart__tre .px:nth-child(26) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(27) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(28) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(29) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(30) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(31) {
+  background-color: black;
+}
+.heart__tre .px:nth-child(32) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(33) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(34) {
+  background-color: black;
+}
+.heart__tre .px:nth-child(35) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(36) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(37) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(38) {
+  background-color: black;
+}
+.heart__tre .px:nth-child(39) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(40) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(41) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(42) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(43) {
+  background-color: black;
+}
+.heart__tre .px:nth-child(44) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(45) {
+  background-color: black;
+}
+.heart__tre .px:nth-child(46) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(47) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(48) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(49) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(50) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(51) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(52) {
+  background-color: black;
+}
+.heart__tre .px:nth-child(53) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(54) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(55) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(56) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(57) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(58) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(59) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(60) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(61) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(62) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(63) {
+  background-color: transparent;
+}
+.heart__tre .px:nth-child(64) {
+  background-color: transparent;
+}
+.heart__tre .px {
+  width: 30px;
+  height: 30px;
+}/*# sourceMappingURL=main.css.map */

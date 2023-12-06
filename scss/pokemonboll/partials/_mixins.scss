@@ -1,0 +1,46 @@
+@mixin pokeball($size, $clr1, $clr2, $clr3){
+background-image: linear-gradient(
+    $clr1 0%,
+    $clr1 47%,
+    $clr2 40%, 
+    $clr2 53%, 
+    $clr3 53%,
+    $clr3
+);
+
+    width: $size * 10;
+    height: $size * 10;
+
+    position: relative;
+
+    border-radius: 50%;
+
+    
+    &::after{
+        content: "";
+        background-color: $clr3;
+
+        border: calc($size*5 /10) solid $clr2;
+        box-sizing: border-box;
+        border-radius: 50%;
+    
+        position: absolute;
+        top: calc(50% - $size *1.25);
+        left: calc(50% - $size *1.25);
+    
+        width: $size * 2.5;
+        height: $size * 2.5;
+        
+    }
+    
+    // &::before{
+    //     content: "";
+    //     background-color: $clr2;
+    
+    //     position: absolute;
+    
+    //     width: 100%;
+    //     height: $size;
+    //     top: calc(50% - $size *0.5);
+    // }
+}

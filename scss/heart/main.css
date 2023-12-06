@@ -1,0 +1,63 @@
+.heart-1 {
+  background-color: #dc143c;
+  position: relative;
+  margin: 4rem;
+  height: 10rem;
+  width: 10rem;
+  transform: rotate(45deg);
+}
+.heart-1::before {
+  content: "";
+  position: absolute;
+  background-color: #dc143c;
+  right: 10rem;
+  height: 10rem;
+  width: 5rem;
+  border-radius: 100% 0% 0% 100%/50% 100% 0% 50%;
+}
+.heart-1::after {
+  content: "";
+  position: absolute;
+  background-color: #dc143c;
+  top: -5rem;
+  height: 5rem;
+  width: 10rem;
+  border-radius: 50% 50% 0% 100%/100% 100% 0% 0%;
+}
+
+.heart-2 {
+  background-color: #303030;
+  position: relative;
+  margin: 4rem;
+  height: 10rem;
+  width: 10rem;
+  transform: rotate(45deg);
+}
+.heart-2::before {
+  content: "";
+  position: absolute;
+  background-color: #303030;
+  right: 10rem;
+  height: 10rem;
+  width: 5rem;
+  border-radius: 100% 0% 0% 100%/50% 100% 0% 50%;
+}
+.heart-2::after {
+  content: "";
+  position: absolute;
+  background-color: #303030;
+  top: -5rem;
+  height: 5rem;
+  width: 10rem;
+  border-radius: 50% 50% 0% 100%/100% 100% 0% 0%;
+}
+
+body {
+  margin: 0;
+  background-color: #535c68;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}/*# sourceMappingURL=main.css.map */

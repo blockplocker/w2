@@ -1,0 +1,76 @@
+.letter-1 {
+  background-color: #d9f9dc;
+  position: relative;
+  border: 0.75rem solid #41e14e;
+  border-radius: 1.5rem;
+  height: 15rem;
+  width: 22.5rem;
+  margin: 5%;
+}
+.letter-1::before {
+  content: "";
+  position: absolute;
+  border-bottom: 0.75rem solid #41e14e;
+  border-right: 0.75rem solid #41e14e;
+  border-top: 0.75rem solid transparent;
+  border-left: 0.75rem solid transparent;
+  border-radius: 0 0 1.5rem 0;
+  height: 11.25rem;
+  width: 11.25rem;
+  top: -3rem;
+  right: 5.25rem;
+  transform: rotate(45deg);
+}
+
+.letter-2 {
+  background-color: #d9eef9;
+  position: relative;
+  border: 0.5rem solid #41ace1;
+  border-radius: 1rem;
+  height: 10rem;
+  width: 15rem;
+  margin: 5%;
+}
+.letter-2::before {
+  content: "";
+  position: absolute;
+  border-bottom: 0.5rem solid #41ace1;
+  border-right: 0.5rem solid #41ace1;
+  border-top: 0.5rem solid transparent;
+  border-left: 0.5rem solid transparent;
+  border-radius: 0 0 1rem 0;
+  height: 7.5rem;
+  width: 7.5rem;
+  top: -2rem;
+  right: 3.5rem;
+  transform: rotate(45deg);
+}
+
+.letter-3 {
+  background-color: #f9e2d9;
+  position: relative;
+  border: 0.25rem solid #eba082;
+  border-radius: 0.5rem;
+  height: 5rem;
+  width: 7.5rem;
+  margin: 5%;
+}
+.letter-3::before {
+  content: "";
+  position: absolute;
+  border-bottom: 0.25rem solid #eba082;
+  border-right: 0.25rem solid #eba082;
+  border-top: 0.25rem solid transparent;
+  border-left: 0.25rem solid transparent;
+  border-radius: 0 0 0.5rem 0;
+  height: 3.75rem;
+  width: 3.75rem;
+  top: -1rem;
+  right: 1.75rem;
+  transform: rotate(45deg);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}/*# sourceMappingURL=main.css.map */

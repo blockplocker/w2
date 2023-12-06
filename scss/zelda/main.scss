@@ -1,0 +1,36 @@
+@use "partials/" as *;
+
+
+
+body{
+    background-color: $clr-body;
+    // debug
+    margin: 2rem;
+}
+
+.life{
+    display: grid;
+    grid-template-columns: repeat(3,$px-size * 8);
+}
+
+.heart{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: $px-size * 8;
+    height: $px-size * 8;
+
+    // debug
+    // outline: 5px solid #b0b;
+
+    &__one{
+        @include heartpixelcolors($px-size, $clr-heart, $heart-one);
+    }
+    &__two{
+        @include heartpixelcolors($px-size, $clr-heart, $heart-two);
+    }
+    &__tre{
+        @include heartpixelcolors($px-size, $clr-heart, $heart-tre);
+    }
+
+}

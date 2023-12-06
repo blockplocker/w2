@@ -1,0 +1,37 @@
+@mixin ghost($size ,$clr1){
+
+background-color: $clr1;
+
+    position: relative;
+    margin: $size*4;
+
+    height: $size * 10;
+    width: $size * 10;
+
+    transform: rotate(45deg);
+    &::before{
+        content: "";
+        position: absolute;
+        
+        background-color: $clr1;
+        right: $size*10;
+        
+        height: $size*10;
+        width: $size*5;
+
+        border-radius: 100% 0% 0% 100% / 50% 100% 0% 50% ;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        
+        background-color: $clr1;
+        top: -$size*5;
+
+        height: $size*5;
+        width: $size*10;
+
+        border-radius: 50% 50% 0% 100% / 100% 100% 0% 0% ;
+
+    }
+}

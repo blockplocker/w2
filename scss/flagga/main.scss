@@ -1,0 +1,9 @@
+@use "partials/" as *;
+
+.flag {
+    @include mx-flaga($v-sz, $v-clr1, $v-clr2);
+}
+
+.skane {
+    @include mx-flaga($v-sz, red, $v-clr2);
+}

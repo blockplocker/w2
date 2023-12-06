@@ -1,0 +1,109 @@
+    @mixin oneup($size ,$size2 ,$clr1 ,$clr2 ,$clr3 ,$clr4){
+    background-color: $clr1;
+    position: relative;
+    box-sizing: border-box;
+
+    height: $size*17.5;
+    width: $size *20;
+
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%  ;
+    border: $size2 solid $clr4;
+
+    overflow: hidden;
+    }
+@mixin oneup_wrapper($size ,$size2 ,$clr1 ,$clr2 ,$clr3 ,$clr4){
+        
+        background-color: $clr2;
+        z-index: 2;
+
+        position: absolute;
+        bottom: $size *3;
+        left:calc(50% - $size*5);
+
+        height: $size*6;
+        width: $size*10;
+        
+        border: $size2 solid $clr4;
+        border-radius:28% 28% 50% 50% ;
+
+    &::before{
+        content: "";
+        background-color: $clr4;
+
+        position: absolute;
+        bottom: $size*2;
+        right: $size*6.5;
+
+        box-shadow: $size*4 0 0 0 $clr4;
+
+
+        height: $size *2.5;
+        width:  $size *1;
+
+        border-radius: 40%;
+    }
+    &::after{
+        content: "";
+        background-color: $clr3;
+
+        position: absolute;
+        bottom: $size*3.5;
+        right: $size*6.75;
+
+        box-shadow: $size*4 0 0 0 $clr3;
+
+        height: $size *0.7;
+        width:  $size *0.5;
+
+        border-radius: 100%;
+    }
+}
+@mixin oneup_2($size ,$size2 ,$clr1 ,$clr2 ,$clr3 ,$clr4){
+    background-color: $clr3;
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    top: calc(50% - $size*7);
+    left: calc(50% - $size*5);
+    
+    width: $size*10;
+    height: $size*10;
+    
+    border-radius: 50%;
+    border: $size2 solid $clr4;
+    
+    &::before{
+        content: "";
+        background-color: $clr3;
+        
+        
+        box-sizing: border-box;
+        
+        position: absolute;
+        top:  45%;
+        left: 120%;
+        
+        width: $size*8;
+        height: $size*8;
+        
+        border-radius: 50%;
+        border: $size2 solid $clr4;
+    }
+    &::after{
+        content: "";
+        background-color: $clr3;
+
+        box-sizing: border-box;
+
+        position: absolute;
+        top:  45%;
+        right: 120%;
+
+        width: $size*8;
+        height: $size*8;
+
+        border-radius: 50%;
+        border: $size2 solid $clr4;
+        }
+    }

@@ -1,0 +1,34 @@
+@use "partials/" as *;
+
+
+
+body{
+    background-color: $clr-body;
+    // debug
+    margin: 2rem;
+}
+
+.powerups{
+    display: grid;
+    grid-template-columns: repeat(2,$px-size * 16);
+}
+
+.power{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: $px-size * 16;
+    height: $px-size * 16;
+
+    // debug
+    // outline: 5px solid #b0b;
+
+    &__sizeup{
+        @include pixelcolors($px-size, $clr-powerup, $power-sizeup);
+    }
+    &__1up{
+        @include pixelcolors($px-size, $clr-powerup, $power-1up);
+    }
+    
+
+}

@@ -1,0 +1,42 @@
+@mixin ghost($size ,$clr1 ,$clr2){
+
+background-color: $clr2;
+
+    position: relative;
+
+    height: $size * 10;
+    width: $size * 10;
+
+border: $size*0.25 solid $clr1;
+border-radius: 100% 100% 80% 15%;
+
+box-shadow: 0 0 $size*3 $clr2;
+
+margin: $size*3;
+    &::before{
+        content: "";
+        position: absolute;
+        
+        background-color: $clr1;
+        border-radius: 0% 0% 50% 50% / 0% 0% 100% 100% ;
+
+        left: calc(50% - $size*2);
+        top: 65%;
+        height: $size*1.5;
+        width: $size*4;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        
+        background-color: $clr1;
+        border-radius: 100% ;
+
+        left: calc(50% - $size*2);
+        top:40%;
+        height: $size*1;
+        width: $size*1;
+
+        box-shadow: $size*3 0 0 0 $clr1;
+    }
+}

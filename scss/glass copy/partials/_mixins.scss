@@ -1,0 +1,58 @@
+@mixin glass($val, $size, $clr1, $clr2) {
+    @if $val == fler {
+        $colorwidth: 100% / length($clr1);
+        $gradient: "";
+
+        $num: 0;
+        @each $color in $clr1 {
+            $gradient: #{$gradient}, $color #{$colorwidth * $num};
+            $num: $num + 1;
+            $gradient: #{$gradient}, $color #{$colorwidth * $num};
+        }
+
+        background-image: linear-gradient(to bottom, #{$gradient});
+
+
+    } @else if $val == random {
+
+        $clrs-random: ();
+        @for $i from 1 through 10 {
+            $random-color: rgb(random(256), random(256), random(256), 0.5);
+            $clrs-random: append($clrs-random, $random-color);
+        }
+        $colorwidth: 100% / length($clrs-random);
+        $gradient: "";
+
+        $num: 0;
+        @each $color in $clrs-random {
+            $gradient: #{$gradient}, $color #{$colorwidth * $num};
+            $num: $num + 1;
+            $gradient: #{$gradient}, $color #{$colorwidth * $num};
+        }
+
+        background-image: linear-gradient(to bottom, #{$gradient});
+
+
+
+
+    } @else {
+        background-color: $clr1;
+    }
+
+    height: $size * 8;
+    width: $size * 4;
+    border-radius: 45% 45% 15% 15%;
+    position: relative;
+
+    &::after {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        background-color: $clr2;
+        height: $size * 8;
+        width: $size;
+        border-radius: 50% 50% 50% 50% / 5% 5% 5% 5%;
+        top: $size * 2.5;
+        right: $size * 1.5;
+    }
+}

@@ -1,0 +1,19 @@
+@use "partials/" as *;
+
+
+.letter-1{
+    @include mx-letter($v-size1 ,$v-clr1 ,$v-clr2);
+}
+.letter-2{
+    @include mx-letter($v-size2 ,$v-clr3 ,$v-clr4);
+}
+.letter-3{
+    @include mx-letter($v-size3 ,$v-clr5 ,$v-clr6);
+}
+
+
+body{
+    margin: 0;
+    min-height: 100vh;
+
+}

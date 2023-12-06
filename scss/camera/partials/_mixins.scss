@@ -1,0 +1,44 @@
+@mixin camera-body($size ,$clr1 ,$clr2 ,$clr3 ,$clr4 ,$clr5){
+
+    background-image: linear-gradient(
+        $clr1 0%, 
+        $clr1 25%, 
+        $clr2 25%,
+        $clr2 75%,
+        $clr1 75%,
+        $clr1
+    );
+    position: relative;
+
+    height: $size * 30;
+    width: $size * 50;
+
+    border-radius: $size*3;
+
+    &::before{
+        content: "";
+        background-color: $clr3;
+        position: absolute;
+        top: -$size * 1.5;
+        left: $size*5;
+
+        height: $size*1.5;
+        width: $size*5;
+
+        border-radius:  $size $size 0 0 ;
+    }
+
+    &::after{
+        content: "";
+        position: absolute;
+
+        background-image: radial-gradient(cirkle at 50%,black 0%, black 25%, red 25%, red 50%, green 50%, green 80%, blue 80% );
+        background-color: #b0b;
+
+        top: 25%;
+        left: 25%;
+
+        height: $size *20;
+        width: $size *20;
+    }
+}

@@ -1,0 +1,25 @@
+@use "partials/" as *;
+
+.glass1 {
+    @include glass(hel, $size, $clr1, $clr2);
+
+}
+.glass2 {
+    @include glass(fler, $size, $clrs-fler, $clr4);
+
+}
+.glass3 {
+    @include glass(random, $size, $clrs-fler, $clr4);
+
+}
+
+body {
+    background-color: #81a2c1;
+    min-height: 100vh;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}

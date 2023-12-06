@@ -1,0 +1,21 @@
+@use "partials/" as *;
+
+
+.heart-1{
+    @include mx-ghost($v-size-1 ,$v-clr1);
+}
+.heart-2{
+    @include mx-ghost($v-size-1  ,$v-clr2);
+}
+
+
+body{
+    margin: 0;
+    background-color: #535c68;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}

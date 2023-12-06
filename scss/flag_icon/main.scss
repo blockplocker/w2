@@ -1,0 +1,15 @@
+@use "partials/" as *;
+
+.flag-icon{
+    @include mx-flag-icon($v-sz, $v-clr-1);
+}
+
+body{
+    margin: 0;
+    background-color: #81a1c1;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

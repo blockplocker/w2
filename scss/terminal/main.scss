@@ -1,0 +1,17 @@
+@use "partials/" as *;
+
+
+.terminal{
+    @include mx-terminal($v-size ,$v-clr1 ,$v-clr2 ,$v-clr3 ,$v-clr4 ,$v-clr5 ,$v-clr6);
+}
+
+
+body{
+    margin: 0;
+    background-color: #81a1c1;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

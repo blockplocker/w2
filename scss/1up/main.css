@@ -1,0 +1,89 @@
+.oneup {
+  background-color: #01c03c;
+  position: relative;
+  box-sizing: border-box;
+  height: 35rem;
+  width: 40rem;
+  border-radius: 50% 50% 50% 50%/60% 60% 40% 40%;
+  border: 0.44rem solid #000000;
+  overflow: hidden;
+}
+
+.oneup_2 {
+  background-color: #fafafa;
+  box-sizing: border-box;
+  position: absolute;
+  top: calc(50% - 14rem);
+  left: calc(50% - 10rem);
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  border: 0.44rem solid #000000;
+}
+.oneup_2::before {
+  content: "";
+  background-color: #fafafa;
+  box-sizing: border-box;
+  position: absolute;
+  top: 45%;
+  left: 120%;
+  width: 16rem;
+  height: 16rem;
+  border-radius: 50%;
+  border: 0.44rem solid #000000;
+}
+.oneup_2::after {
+  content: "";
+  background-color: #fafafa;
+  box-sizing: border-box;
+  position: absolute;
+  top: 45%;
+  right: 120%;
+  width: 16rem;
+  height: 16rem;
+  border-radius: 50%;
+  border: 0.44rem solid #000000;
+}
+
+.oneup_wrapper {
+  background-color: #f9d682;
+  z-index: 2;
+  position: absolute;
+  bottom: 6rem;
+  left: calc(50% - 10rem);
+  height: 12rem;
+  width: 20rem;
+  border: 0.44rem solid #000000;
+  border-radius: 28% 28% 50% 50%;
+}
+.oneup_wrapper::before {
+  content: "";
+  background-color: #000000;
+  position: absolute;
+  bottom: 4rem;
+  right: 13rem;
+  box-shadow: 8rem 0 0 0 #000000;
+  height: 5rem;
+  width: 2rem;
+  border-radius: 40%;
+}
+.oneup_wrapper::after {
+  content: "";
+  background-color: #fafafa;
+  position: absolute;
+  bottom: 7rem;
+  right: 13.5rem;
+  box-shadow: 8rem 0 0 0 #fafafa;
+  height: 1.4rem;
+  width: 1rem;
+  border-radius: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #94acf3;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */

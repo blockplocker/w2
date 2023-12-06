@@ -1,0 +1,73 @@
+.ghost-1 {
+  background-color: #f9f3e7;
+  position: relative;
+  height: 10rem;
+  width: 10rem;
+  border: 0.25rem solid #333333;
+  border-radius: 100% 100% 80% 15%;
+  box-shadow: 0 0 3rem #f9f3e7;
+  margin: 3rem;
+}
+.ghost-1::before {
+  content: "";
+  position: absolute;
+  background-color: #333333;
+  border-radius: 0% 0% 50% 50%/0% 0% 100% 100%;
+  left: calc(50% - 2rem);
+  top: 65%;
+  height: 1.5rem;
+  width: 4rem;
+}
+.ghost-1::after {
+  content: "";
+  position: absolute;
+  background-color: #333333;
+  border-radius: 100%;
+  left: calc(50% - 2rem);
+  top: 40%;
+  height: 1rem;
+  width: 1rem;
+  box-shadow: 3rem 0 0 0 #333333;
+}
+
+.ghost-2 {
+  background-color: #4c97f9;
+  position: relative;
+  height: 30rem;
+  width: 30rem;
+  border: 0.75rem solid #333333;
+  border-radius: 100% 100% 80% 15%;
+  box-shadow: 0 0 9rem #4c97f9;
+  margin: 9rem;
+}
+.ghost-2::before {
+  content: "";
+  position: absolute;
+  background-color: #333333;
+  border-radius: 0% 0% 50% 50%/0% 0% 100% 100%;
+  left: calc(50% - 6rem);
+  top: 65%;
+  height: 4.5rem;
+  width: 12rem;
+}
+.ghost-2::after {
+  content: "";
+  position: absolute;
+  background-color: #333333;
+  border-radius: 100%;
+  left: calc(50% - 6rem);
+  top: 40%;
+  height: 3rem;
+  width: 3rem;
+  box-shadow: 9rem 0 0 0 #333333;
+}
+
+body {
+  margin: 0;
+  background-color: #535c68;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}/*# sourceMappingURL=main.css.map */
