@@ -1,0 +1,35 @@
+@mixin ikon($val, $clr1, $transparent, $small, $medium, $large, $extralarge){
+    $size:0;
+    @if $val == small{
+        $size: $small;
+    }@if $val == medium{
+        $size: $medium;
+    }@if $val == large{
+        $size: $large;
+    }@if $val == extralarge{
+        $size: $extralarge;
+    }
+    
+
+    background-color: $clr1;
+    width: $size * 2;
+    height: $size*0.5;
+    position: relative;
+
+    &::before{
+        content: ""; 
+        background-color: $clr1;
+        width: $size * 2;
+        height: $size*0.5;
+        position: absolute;
+        bottom: $size;
+    }
+    &::after{
+        content: "";
+        background-color: $clr1;
+        width: $size * 2;
+        height: $size*0.5;
+        position: absolute;
+        top: $size;
+    }
+}

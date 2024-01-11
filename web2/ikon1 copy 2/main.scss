@@ -1,0 +1,48 @@
+@use "partials" as *;
+
+
+.ikon1{
+    @include ikon(small, happy, $green, $red, $black, $transparent, $small, $medium, $large, $extralarge)
+
+}
+.ikon2{
+    @include ikon(medium, happy, $green, $red, $black, $transparent, $small, $medium, $large, $extralarge)
+
+}
+.ikon3{
+    @include ikon(large, happy, $green, $red, $black, $transparent, $small, $medium, $large, $extralarge)
+
+}
+.ikon4{
+    @include ikon(extralarge, happy, $green, $red, $black, $transparent, $small, $medium, $large, $extralarge)
+
+}
+
+
+.ikon1_angry{
+    @include ikon(small, angry, $green, $red, $black, $transparent, $small, $medium, $large, $extralarge)
+
+}
+.ikon2_angry{
+    @include ikon(medium, angry, $green, $red, $black, $transparent, $small, $medium, $large, $extralarge)
+
+}
+.ikon3_angry{
+    @include ikon(large, angry, $green, $red, $black, $transparent, $small, $medium, $large, $extralarge)
+
+}
+.ikon4_angry{
+    @include ikon(extralarge, angry, $green, $red, $black, $transparent, $small, $medium, $large, $extralarge)
+
+}
+
+
+body{
+    background-color: $clr1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    min-height: 100vh;  
+}

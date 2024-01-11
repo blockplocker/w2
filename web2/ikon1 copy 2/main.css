@@ -1,0 +1,249 @@
+.ikon1 {
+  background-color: #32e600;
+  width: 19.2px;
+  height: 16px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 3.2px #000000;
+  transform: rotate(0);
+}
+.ikon1::before {
+  content: "";
+  background-color: #000000;
+  width: 3.2px;
+  height: 4.8px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 2.4px);
+  right: 60%;
+}
+.ikon1::after {
+  content: "";
+  background-color: #000000;
+  width: 3.2px;
+  height: 4.8px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 2.4px);
+  left: 60%;
+}
+
+.ikon2 {
+  background-color: #32e600;
+  width: 38.4px;
+  height: 32px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 6.4px #000000;
+  transform: rotate(0);
+}
+.ikon2::before {
+  content: "";
+  background-color: #000000;
+  width: 6.4px;
+  height: 9.6px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 4.8px);
+  right: 60%;
+}
+.ikon2::after {
+  content: "";
+  background-color: #000000;
+  width: 6.4px;
+  height: 9.6px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 4.8px);
+  left: 60%;
+}
+
+.ikon3 {
+  background-color: #32e600;
+  width: 76.8px;
+  height: 64px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 12.8px #000000;
+  transform: rotate(0);
+}
+.ikon3::before {
+  content: "";
+  background-color: #000000;
+  width: 12.8px;
+  height: 19.2px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 9.6px);
+  right: 60%;
+}
+.ikon3::after {
+  content: "";
+  background-color: #000000;
+  width: 12.8px;
+  height: 19.2px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 9.6px);
+  left: 60%;
+}
+
+.ikon4 {
+  background-color: #32e600;
+  width: 153.6px;
+  height: 128px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 25.6px #000000;
+  transform: rotate(0);
+}
+.ikon4::before {
+  content: "";
+  background-color: #000000;
+  width: 25.6px;
+  height: 38.4px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 19.2px);
+  right: 60%;
+}
+.ikon4::after {
+  content: "";
+  background-color: #000000;
+  width: 25.6px;
+  height: 38.4px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 19.2px);
+  left: 60%;
+}
+
+.ikon1_angry {
+  background-color: #dc143c;
+  width: 19.2px;
+  height: 16px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 3.2px #000000;
+  transform: rotate(20deg);
+}
+.ikon1_angry::before {
+  content: "";
+  background-color: #000000;
+  width: 3.2px;
+  height: 4.8px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 2.4px);
+  right: 60%;
+}
+.ikon1_angry::after {
+  content: "";
+  background-color: #000000;
+  width: 3.2px;
+  height: 4.8px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 2.4px);
+  left: 60%;
+}
+
+.ikon2_angry {
+  background-color: #dc143c;
+  width: 38.4px;
+  height: 32px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 6.4px #000000;
+  transform: rotate(20deg);
+}
+.ikon2_angry::before {
+  content: "";
+  background-color: #000000;
+  width: 6.4px;
+  height: 9.6px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 4.8px);
+  right: 60%;
+}
+.ikon2_angry::after {
+  content: "";
+  background-color: #000000;
+  width: 6.4px;
+  height: 9.6px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 4.8px);
+  left: 60%;
+}
+
+.ikon3_angry {
+  background-color: #dc143c;
+  width: 76.8px;
+  height: 64px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 12.8px #000000;
+  transform: rotate(20deg);
+}
+.ikon3_angry::before {
+  content: "";
+  background-color: #000000;
+  width: 12.8px;
+  height: 19.2px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 9.6px);
+  right: 60%;
+}
+.ikon3_angry::after {
+  content: "";
+  background-color: #000000;
+  width: 12.8px;
+  height: 19.2px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 9.6px);
+  left: 60%;
+}
+
+.ikon4_angry {
+  background-color: #dc143c;
+  width: 153.6px;
+  height: 128px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 25.6px #000000;
+  transform: rotate(20deg);
+}
+.ikon4_angry::before {
+  content: "";
+  background-color: #000000;
+  width: 25.6px;
+  height: 38.4px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 19.2px);
+  right: 60%;
+}
+.ikon4_angry::after {
+  content: "";
+  background-color: #000000;
+  width: 25.6px;
+  height: 38.4px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 19.2px);
+  left: 60%;
+}
+
+body {
+  background-color: #2e3440;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  min-height: 100vh;
+}/*# sourceMappingURL=main.css.map */

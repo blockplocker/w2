@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #282a37;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #282a37;
+  color: white;
+}
+
+#counter-el {
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+#increment-btn {
+  background-color: #40dbfc;
+  padding: 15px 30px;
+  width: 200px;
+}
+
+#save-btn {
+  background-color: #50fa7a;
+  padding: 15px 30px;
+  width: 100px;
+}
+
+#reset-btn {
+  background-color: #fe5454;
+  padding: 15px 30px;
+  width: 100px;
+}/*# sourceMappingURL=main.css.map */

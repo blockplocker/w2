@@ -1,0 +1,33 @@
+@use "partials" as *;
+
+
+.ikon1{
+    @include ikon(small, $clr2, $transparent, $small, $medium, $large, $extralarge)
+
+}
+.ikon2{
+    @include ikon(medium, $clr2, $transparent, $small, $medium, $large, $extralarge)
+
+}
+.ikon3{
+    @include ikon(large, $clr2, $transparent, $small, $medium, $large, $extralarge)
+
+}
+.ikon4{
+    @include ikon(extralarge, $clr2, $transparent, $small, $medium, $large, $extralarge)
+
+}
+.ikon5{
+    @include ikon(extralarge, $yellow, $transparent, $small, $medium, $large, $extralarge)
+
+}
+
+body{
+    background-color: $clr1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    min-height: 100vh;
+}

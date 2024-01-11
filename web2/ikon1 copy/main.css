@@ -1,0 +1,159 @@
+.ikon1 {
+  background-color: transparent;
+  border: 1.6px solid #95a5a6;
+  width: 32px;
+  height: 16px;
+  position: relative;
+  border-radius: 10%;
+}
+.ikon1::before {
+  content: "";
+  background-color: transparent;
+  border: 1.6px solid #95a5a6;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 5.6px);
+  right: 40%;
+}
+.ikon1::after {
+  content: "";
+  background-color: #95a5a6;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
+.ikon2 {
+  background-color: transparent;
+  border: 3.2px solid #95a5a6;
+  width: 64px;
+  height: 32px;
+  position: relative;
+  border-radius: 10%;
+}
+.ikon2::before {
+  content: "";
+  background-color: transparent;
+  border: 3.2px solid #95a5a6;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 11.2px);
+  right: 40%;
+}
+.ikon2::after {
+  content: "";
+  background-color: #95a5a6;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
+.ikon3 {
+  background-color: transparent;
+  border: 6.4px solid #95a5a6;
+  width: 128px;
+  height: 64px;
+  position: relative;
+  border-radius: 10%;
+}
+.ikon3::before {
+  content: "";
+  background-color: transparent;
+  border: 6.4px solid #95a5a6;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 22.4px);
+  right: 40%;
+}
+.ikon3::after {
+  content: "";
+  background-color: #95a5a6;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
+.ikon4 {
+  background-color: transparent;
+  border: 12.8px solid #95a5a6;
+  width: 256px;
+  height: 128px;
+  position: relative;
+  border-radius: 10%;
+}
+.ikon4::before {
+  content: "";
+  background-color: transparent;
+  border: 12.8px solid #95a5a6;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 44.8px);
+  right: 40%;
+}
+.ikon4::after {
+  content: "";
+  background-color: #95a5a6;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
+.ikon5 {
+  background-color: transparent;
+  border: 12.8px solid #ebcb8b;
+  width: 256px;
+  height: 128px;
+  position: relative;
+  border-radius: 10%;
+}
+.ikon5::before {
+  content: "";
+  background-color: transparent;
+  border: 12.8px solid #ebcb8b;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 44.8px);
+  right: 40%;
+}
+.ikon5::after {
+  content: "";
+  background-color: #ebcb8b;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
+body {
+  background-color: #2e3440;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  min-height: 100vh;
+}/*# sourceMappingURL=main.css.map */

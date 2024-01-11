@@ -1,0 +1,50 @@
+@mixin ikon($val, $val2, $green, $red, $black, $transparent, $small, $medium, $large, $extralarge){
+    $size:0;
+    @if $val == small{
+        $size: $small;
+    }@if $val == medium{
+        $size: $medium;
+    }@if $val == large{
+        $size: $large;
+    }@if $val == extralarge{
+        $size: $extralarge;
+    }
+    $clr1:#b0b;
+    $degrees: 0;
+    @if $val2 == happy{
+        $clr1: $green;
+    }@if $val2 == angry{
+        $clr1: $red;
+        $degrees: 20deg;
+    }
+    
+
+    background-color: $clr1;
+    width: $size*1.2;
+    height: $size;
+    border-radius: 50%;
+    position: relative;
+    box-shadow:0 0 $size*0.2 $black;
+transform: rotate($degrees);
+
+    &::before{
+        content: "";
+        background-color: $black;
+        width: $size * 0.2 ;
+        height: $size * 0.3;
+        border-radius: 50%;
+        position: absolute;
+        top: calc(50% - $size*0.15);
+        right: 60%;
+    }
+    &::after{
+        content: "";
+        background-color: $black;
+        width: $size * 0.2;
+        height: $size * 0.3;
+        border-radius: 50%;
+        position: absolute;
+        top: calc(50% - $size*0.15);
+        left: 60%;
+    }
+}

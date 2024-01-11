@@ -1,0 +1,124 @@
+.ikon1 {
+  background-color: #95a5a6;
+  width: 32px;
+  height: 8px;
+  position: relative;
+}
+.ikon1::before {
+  content: "";
+  background-color: #95a5a6;
+  width: 32px;
+  height: 8px;
+  position: absolute;
+  bottom: 16px;
+}
+.ikon1::after {
+  content: "";
+  background-color: #95a5a6;
+  width: 32px;
+  height: 8px;
+  position: absolute;
+  top: 16px;
+}
+
+.ikon2 {
+  background-color: #95a5a6;
+  width: 64px;
+  height: 16px;
+  position: relative;
+}
+.ikon2::before {
+  content: "";
+  background-color: #95a5a6;
+  width: 64px;
+  height: 16px;
+  position: absolute;
+  bottom: 32px;
+}
+.ikon2::after {
+  content: "";
+  background-color: #95a5a6;
+  width: 64px;
+  height: 16px;
+  position: absolute;
+  top: 32px;
+}
+
+.ikon3 {
+  background-color: #95a5a6;
+  width: 128px;
+  height: 32px;
+  position: relative;
+}
+.ikon3::before {
+  content: "";
+  background-color: #95a5a6;
+  width: 128px;
+  height: 32px;
+  position: absolute;
+  bottom: 64px;
+}
+.ikon3::after {
+  content: "";
+  background-color: #95a5a6;
+  width: 128px;
+  height: 32px;
+  position: absolute;
+  top: 64px;
+}
+
+.ikon4 {
+  background-color: #95a5a6;
+  width: 256px;
+  height: 64px;
+  position: relative;
+}
+.ikon4::before {
+  content: "";
+  background-color: #95a5a6;
+  width: 256px;
+  height: 64px;
+  position: absolute;
+  bottom: 128px;
+}
+.ikon4::after {
+  content: "";
+  background-color: #95a5a6;
+  width: 256px;
+  height: 64px;
+  position: absolute;
+  top: 128px;
+}
+
+.ikon5 {
+  background-color: #ebcb8b;
+  width: 256px;
+  height: 64px;
+  position: relative;
+}
+.ikon5::before {
+  content: "";
+  background-color: #ebcb8b;
+  width: 256px;
+  height: 64px;
+  position: absolute;
+  bottom: 128px;
+}
+.ikon5::after {
+  content: "";
+  background-color: #ebcb8b;
+  width: 256px;
+  height: 64px;
+  position: absolute;
+  top: 128px;
+}
+
+body {
+  background-color: #2e3440;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  min-height: 100vh;
+}/*# sourceMappingURL=main.css.map */
