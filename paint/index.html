@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="wrapper__wrapper">
+
+            <div class="savecontainer">
+                <button id="clear">Clear</button>
+                <button id="save">Save</button>
+            </div>
+            
+            <div id="colorscontioner">
+            <input type="color" id="color-picker" name="color" value="#ff0000" />
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            
+        </div>
+
+        <div class="savecontainer">
+            <button id="random-color">RandomColor</button>
+            <button id="eraser">Eraser</button>
+        </div>
+
+            <div class="slidecontainer">
+                <div class="slider-value"></div>
+                <input type="range" min="1" max="100" value="10" class="slider" id="size-slider">
+            </div>
+
+        </div>
+        <canvas id="paint"></canvas>
+    </div>
+
+
+</body>
+<script src="index.js"></script>
+
+</html>
