@@ -6,21 +6,26 @@ console.log("index.js loaded");
 
 function getJoke() {
     // get a joke from the chuck norris api
-    fetch("https://api.chucknorris.io/jokes/random")
-        .then((response) => {
-            // check if the response is ok
-            if (!response.ok) {
-                // throw an error
-                throw new error("server returned " + response.status);
-            }
-            // return the json object
-            console.log("response", response);
-            return response.json();
-        })
-        // display the error
-        .catch((error) => {
-            console.log(error);
-        });
+    return (
+        fetch("https://api.chucknorris.io/jokes/random")
+            .then((response) => {
+                // check if the response is ok
+                if (!response.ok) {
+                    // throw an error
+                    throw new error("server returned " + response.status);
+                }
+                // return the json object
+                return response.json();
+            })
+            .then((data) => {
+                // console.log("data", data.value);
+                return data.value;
+            })
+            // display the error
+            .catch((error) => {
+                console.log(error);
+            })
+    );
 }
 
 /**
@@ -29,11 +34,14 @@ function getJoke() {
  * @param {*} klass
  * @returns
  */
-function makeElement(type, klass) {
+function makeElement(type, klass = null, text = null) {
     // create an element
     let el = document.createElement(type);
     //add the class to the element
-    el.classList.add(klass);
+    el.className = klass;
+    //add the text to the element
+    el.textContent = text;
+    //return the created element
     return el;
 }
 
@@ -47,12 +55,22 @@ let jokeText = makeElement("p", "jokeText");
 app.appendChild(wrapper);
 wrapper.appendChild(jokeButton);
 wrapper.appendChild(jokeText);
-// set the text of the button
-jokeButton.textcontent = "Get a joke";
 
+// set the text of the button
+jokeButton.textContent = "Get a joke";
 // get a joke and display it when the page loads
-let joke = getJoke();
-jokeText.textContent = joke;
+// let joke = getJoke();
+// jokeText.textContent = joke;
+
+var x = null;
+getJoke().then((data) => {
+    console.log("A", data);
+    x = data;
+});
+console.log("X", x);
+jokeText.textContent = x;
+console.log(getJoke());
+
 // get a joke and display it when the button is clicked
 jokeButton.addEventListener("click", function () {
     joke = getJoke();
