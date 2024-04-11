@@ -1,10 +1,4 @@
-function addNumber() {
-        number++;
-        text.textContent +=', '+number;
-}
-function removeButton() {
-    button.remove();
-}
+import { removeEl } from './modules/removeEl.js';
 
 let app = document.querySelector('.app');
 let div = document.createElement('div');
@@ -20,12 +14,11 @@ let number = 0;
 button.textContent = "Klicka på mig...";
 text.textContent = number
 
-
 button.addEventListener('click', () => {
     if (number == 9) {
-        removeButton()
+        removeEl(button)
     } else {
-        addNumber();
+        number++;
+        text.textContent +=', '+number;
     }
 })
-
